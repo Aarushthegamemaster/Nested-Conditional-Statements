@@ -10,8 +10,10 @@ if vehicle == 1:
     which_bike = int(input("Please enter the number of the bike you want:"))
     if which_bike == 1:
         print("You have selected Scooty")
+        print("You ride is on the way!")
     elif which_bike == 2:
         print("You have selected Scooter")
+        print("Your ride is on the way!")
     else:
         print("Invalid Input")
 elif vehicle == 2:
@@ -22,8 +24,10 @@ elif vehicle == 2:
     which_car = int(input("Please enter the number of the car you want:"))
     if which_car == 1:
         print("You have chosen Sedan")
+        print("Your ride is on the way!")
     elif which_car == 2:
         print("You have chosen XUV")
+        print("Your ride is on the way!")
     else:
         print("Invalid Input")
 else:
